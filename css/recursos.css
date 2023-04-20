@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #F2DEBA;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+.titulo {
+    color: #0E5E6F;
+    /* margin: 5px 5px 5px 22%; */
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: #F2DEBA;
+    text-align: center;
+    padding: 5px;    
+    font-size: .5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer
+{
+    color: #0E5E6F;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: #F2DEBA;
+    text-align: center;
+    padding: 5px;    
+    font-size: .7em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navegacion {
+    color: #FFEFD6;
+    background-color: #0E5E6F;
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    padding: 20px 5px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+/* este alimina las viñetas o puntos de la lista */
+.navegacion>ul>li,
+.navegacion>ul>ul>li {
+    list-style-type: none;
+    cursor: pointer;
+}
+.navegacion>ul {
+    padding-left: 0%;
+}
+
+
+.contenido {
+    color: #0E5E6F;
+    margin-right: 2%;
+    margin-left: 2%;
+    background-color: #F2DEBA;
+    text-align: justify;
+    padding: 10px 10px 10px 20px;
+    height: 10;
+    width: 2 px;
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+
+.submenuhover {
+    display: none;
+    position: relative;
+}
+
+.submenuhover:hover {
+    display: block;
+    position: relative;
+}
+
+.Menucontenedor {
+    position: relative; 
+}
+
+.Menucontenedor:hover ul {
+    display: block;
+    background: #3A8891;
+}
+
+.block {
+    display: block;
+}
+
+.listitem {
+    padding: 5px;
+    width: auto;
+    display: block;
+}
+
+
+
+.lateral {
+    color: green;
+    margin: 5px;
+    background-color: #3A8891;
+    text-align: center;
+    padding: 10px;
+    height: 100 ;
+    width: 20 px;
+}
+
+
+.cenimag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
